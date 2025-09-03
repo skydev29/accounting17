@@ -22,9 +22,9 @@
                             <t t-if="o.partner_id.zip">
                                 <span t-field="o.partner_id.zip"/>
                             </t>
-                            <t t-if="o.partner_id.state_id">
+                           <!--  <t t-if="o.partner_id.state_id">
                                 <span t-field="o.partner_id.state"/>
-                            </t>
+                            </t> -->
                            <!--  <t t-if="o.partner_id.city_id">
                                 <span t-field="o.partner_id.city"/>
                             </t> -->
