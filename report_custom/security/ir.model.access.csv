@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_proptech/report_custom_proptech/report_custom,proptech/report_custom.proptech/report_custom,model_proptech/report_custom_proptech/report_custom,base.group_user,1,1,1,1

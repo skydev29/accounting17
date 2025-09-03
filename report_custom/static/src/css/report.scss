@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'DINNextLTArabic';
+    src: url('/report_custom/static/src/fonts/alfont_com_AlFont_com_DINNextLTArabic-Regular-2.ttf') format('truetype');
+    font-weight: normal; /* Ou un poids spécifique comme 400 */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DINNextLTArabic';
+    src: url('/report_custom/static/src/fonts/alfont_com_AlFont_com_DINNextLTArabic-Regular-4.ttf') format('truetype');
+    font-weight: 500; /* Peut-être un poids intermédiaire si 2 est light et 4 plus lourd */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DINNextLTArabic';
+    src: url('/report_custom/static/src/fonts/ArbFONTS-DINNextLTArabic-Bold-2.ttf') format('truetype');
+    font-weight: bold; /* Ou un poids spécifique comme 700 */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DINNextLTArabic';
+    src: url('/report_custom/static/src/fonts/DINNextLTArabic-Heavy.ttf') format('truetype');
+    font-weight: 900; /* Ou un poids spécifique pour 'Heavy' */
+    font-style: normal;
+}
+
+/* Exemple d'utilisation dans votre CSS */
+body {
+    font-family: 'DINNextLTArabic', sans-serif;
+}
+
+h1 {
+    font-family: 'DINNextLTArabic', sans-serif;
+    font-weight: bold; /* Appliquera ArbFONTS-DINNextLTArabic-Bold-2.ttf */
+}
+
+.text-heavy {
+    font-family: 'DINNextLTArabic', sans-serif;
+    font-weight: 900; /* Appliquera DINNextLTArabic-Heavy.ttf */
+}
